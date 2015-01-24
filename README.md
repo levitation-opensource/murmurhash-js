@@ -4,7 +4,7 @@ An optimized JavaScript implementation of the MurmurHash algorithms.
 
 This algorithm takes a JavaScript string and a seed, and quickly creates a non-cryptographic 32-bit hash from it.
 
-More information about these algorithms can be found at:
+More information about this algorithm can be found at:
 
 *	[MurmurHash Homepage](http://sites.google.com/site/murmurhash/)
 *	[Wikipedia Entry on MurmurHash](http://en.wikipedia.org/wiki/MurmurHash) 
