@@ -11,7 +11,7 @@
 
     function murmurhash3_32_rp(key, seed) {
 
-        var len, tailLength, bodyLength, h1, k1, i, c1_low, c1_high, c2_low, c2_high;
+        var keyLength, tailLength, bodyLength, h1, k1, i, c1_low, c1_high, c2_low, c2_high;
 
         keyLength = key.length;
         tailLength = keyLength & 3;
