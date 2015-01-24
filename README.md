@@ -19,6 +19,10 @@ The performance comparison of the two algorithms can be found below. The perform
 
 * [JSPerf comparison of the MurmurHash-JS implementations](http://jsperf.com/murmurhash3-comparison)
 
+Result equality test against Gary's implementation is here:
+
+* [JSFiddle-based test](http://jsfiddle.net/ht2q85hg/)
+
 ## License (MIT)
 
 Copyright (c) 2015 Roland Pihlakas
