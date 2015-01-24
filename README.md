@@ -7,7 +7,7 @@ This algorithm takes a JavaScript string and a seed, and quickly creates a non-c
 More information about this algorithm can be found at:
 
 *	[MurmurHash Homepage](http://sites.google.com/site/murmurhash/)
-*	[Wikipedia Entry on MurmurHash](http://en.wikipedia.org/wiki/MurmurHash) 
+*	[Wikipedia entry on MurmurHash](http://en.wikipedia.org/wiki/MurmurHash) 
 
 There is alternative earlier implementation available at:
 
