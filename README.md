@@ -9,6 +9,14 @@ More information about these algorithms can be found at:
 *	[MurmurHash Homepage](http://sites.google.com/site/murmurhash/)
 *	[Wikipedia Entry on MurmurHash](http://en.wikipedia.org/wiki/MurmurHash) 
 
+There is another earlier implementation available at:
+
+* [MurmurHash 3 and 2 by Cary Gourt](http://github.com/garycourt/murmurhash-js)
+
+The performance comparison of the two algorithms can be found below. The performance varies across computers, in some computers they perform about same. In some computers my version is about 20% faster.
+
+* [JSPerf comparison of the MurmurHash-JS implementations](http://jsperf.com/murmurhash3-comparison)
+
 ## License (MIT)
 
 Copyright (c) 2015 Roland Pihlakas
