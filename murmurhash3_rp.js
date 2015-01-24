@@ -3,6 +3,8 @@
      * 
      * @author <a href="mailto:roland@simplify.ee">Roland Pihlakas</a>
      * @see http://github.com/levitation/murmurhash-js
+     * @author <a href="mailto:aappleby@gmail.com">Austin Appleby</a>
+     * @see http://sites.google.com/site/murmurhash/
      * 
      * @param {string} key ASCII only
      * @param {number} seed positive integer only
