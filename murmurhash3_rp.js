@@ -37,10 +37,10 @@
         while (i < bodyLength) {
 
             k1 =
-              (((key.charCodeAt(i) & 0xff)) |
+              ((key.charCodeAt(i) & 0xff)) |
               ((key.charCodeAt(++i) & 0xff) << 8) |
               ((key.charCodeAt(++i) & 0xff) << 16) |
-              ((key.charCodeAt(++i) & 0xff) << 24));
+              ((key.charCodeAt(++i) & 0xff) << 24);
 
             ++i;
 
