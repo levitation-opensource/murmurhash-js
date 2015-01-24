@@ -2,14 +2,14 @@
 
 An optimized JavaScript implementation of the MurmurHash algorithms.
 
-These algorithms take a JavaScript string (and a seed), and quickly create a non-cryptographic 32-bit hash from it. And by quick I mean sub-millisecond performance.
+This algorithm takes a JavaScript string and a seed, and quickly creates a non-cryptographic 32-bit hash from it.
 
 More information about these algorithms can be found at:
 
 *	[MurmurHash Homepage](http://sites.google.com/site/murmurhash/)
 *	[Wikipedia Entry on MurmurHash](http://en.wikipedia.org/wiki/MurmurHash) 
 
-There is another earlier implementation available at:
+There is alternative earlier implementation available at:
 
 * [MurmurHash 3 and 2 by Cary Gourt](http://github.com/garycourt/murmurhash-js)
 
