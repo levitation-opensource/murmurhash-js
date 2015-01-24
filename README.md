@@ -1,6 +1,6 @@
 # MurmurHash.js
 
-An optimized JavaScript implementation of the MurmurHash algorithms.
+An optimized JavaScript implementation of the MurmurHash-3 algorithm.
 
 This algorithm takes a JavaScript string and a seed, and quickly creates a non-cryptographic 32-bit hash from it.
 
