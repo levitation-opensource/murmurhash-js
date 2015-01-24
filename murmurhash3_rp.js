@@ -58,7 +58,7 @@
             //h1 = h1*5+0xe6546b64;
             h1 = h1 * 5 + 0xe6546b64;
 
-        }   //while (i < bytes) {
+        }   //while (i < bodyLength) {
 
 
         //----------
@@ -81,7 +81,7 @@
                 //h1 ^= k1;
                 h1 ^= k1;
 
-        }   //switch (remainder) {
+        }   //switch (tailLength) {
 
 
         //----------
