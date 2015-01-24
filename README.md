@@ -13,7 +13,7 @@ There is alternative earlier implementation available at:
 
 * [MurmurHash 3 and 2 by Cary Gourt](http://github.com/garycourt/murmurhash-js)
 
-My implementation is based on the observation that Javascript is not limited to exactly to 32-bit integers. Rather, it internally represents integers as double-precision floats. Therefore it is limited to 52-bit integers (the mantissa length). 52 bits is enough to contain 48 bits and therefore it is able to contain the result of multiplying 32-bit and 16-bit numbers without loss of lower bits.
+My implementation is based on the observation that Javascript is not limited to exactly to 32-bit integers. Rather, it internally represents integers as double-precision floats. Therefore it is limited to 52-bit integers (the mantissa length). 52 bits is enough to contain 48 bits and therefore it is able to contain the result of multiplying 32-bit and 16-bit numbers without loss of lower bits. This observation enables the algorithm to be implemented so that it requires less operations to emulate 32-bit multiplications. Also because of that, addition of 32-bit operands can be performed simpler.
 
 The performance comparison of the two algorithms can be found below. The performance varies across computers, in some computers they perform about same. In some computers my version is about 20% faster.
 
