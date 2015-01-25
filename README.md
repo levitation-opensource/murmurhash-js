@@ -21,7 +21,7 @@ The performance comparison of the two algorithms can be found below. The perform
 
 Result equality test against Gary's implementation is here:
 
-* [JSFiddle-based test](http://jsfiddle.net/4u0ve7ux/3/)
+* [JSFiddle-based test](http://jsfiddle.net/4u0ve7ux/5/)
 
 ## License (MIT)
 
