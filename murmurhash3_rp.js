@@ -13,7 +13,7 @@
 
     function murmurhash3_32_rp(key, seed) {
 
-        var keyLength, tailLength, tailLength4, bodyLength, bodyLength8, h1, k1, i, c1, c1_low, c1_high, c2, c2_low, c2_high, k1B;
+        var keyLength, tailLength, tailLength4, bodyLength, bodyLength8, h1, k1, i, c1_low, c1_high, c2_low, c2_high, k1B;
 
         keyLength = key.length;
         tailLength = keyLength & 3;
@@ -22,11 +22,11 @@
         bodyLength8 = bodyLength - tailLength4;
         h1 = seed;
 
-        c1 = 0xcc9e2d51;
+        //c1 = 0xcc9e2d51;
         c1_low = 0x2d51;
         c1_high = 0xcc9e0000;
 
-        c2 = 0x1b873593;
+        //c2 = 0x1b873593;
         c2_low = 0x3593;
         c2_high = 0x1b870000;
 
