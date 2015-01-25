@@ -17,7 +17,7 @@ The implementation is based on the observation that JavaScript is not limited to
 
 The performance comparison of the two algorithms can be found below. The performance varies across computers, in some computers they perform about same. In some computers my version is about 20% faster.
 
-* [JSPerf comparison of the MurmurHash-JS implementations](http://jsperf.com/murmurhash3-comparison)
+* [JSPerf comparison of the MurmurHash-JS implementations](http://jsperf.com/murmurhash3-comparison/2)
 
 Result equality test against Gary's implementation is here:
 
