@@ -1,6 +1,9 @@
     /**
      * JS Implementation of MurmurHash3 (r152) (as of May 10, 2013)
      * A classical, non-unrolled version.
+     * The other, unrolled version obviously requires more code space in the CPU, 
+     * so you have to consider how often and on how long strings 
+     * you are going to call the hashing function.
      * 
      * @author <a href="mailto:roland@simplify.ee">Roland Pihlakas</a>
      * @see http://github.com/levitation/murmurhash-js
